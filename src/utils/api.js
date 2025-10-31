@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://localhost:5203/api',
+  baseURL: 'https://trust-backend-usx2.onrender.com/api', // بدل localhost
   headers: {
     'Content-Type': 'application/json'
   }
