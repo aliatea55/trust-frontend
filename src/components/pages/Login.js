@@ -38,7 +38,7 @@ import logo from '../../assets/logo.png';
 
 export default function Login() {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  //const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const navigate = useNavigate();
 
   // States
